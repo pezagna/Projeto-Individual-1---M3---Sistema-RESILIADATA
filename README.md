@@ -36,7 +36,7 @@ com nosso modelo:
 
 5. Como essas entidades estão relacionadas?
 
-    No modelo lógico as entidades estão relacionadas por uma entidade relacional chamada por "Utiliza".
+    No modelo lógico as entidades "Empresa_parceira" e "Tecnologia" estão relacionadas por uma entidade relacional com cardinalidade N para N, chamada por "Utiliza".
     
 ----------------------------------------------------------------------------------------------------------
 Linha de comando utlizado para criar a modelagem.
