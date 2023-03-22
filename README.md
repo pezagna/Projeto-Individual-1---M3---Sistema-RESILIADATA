@@ -19,16 +19,16 @@ com nosso modelo:
 
 1. Existem outras entidades além dessas?
 
-Nao.
+    Nao.
 
 3. Quais são os principais campos e tipos?
 
-Na entidade "Empresa_parceira" foi criado um ID como PRIMARY KEY.
+    Na entidade "Empresa_parceira" foi criado um ID como PRIMARY KEY.
 
-Na entidade "Tecnologia" foi criado um ID como PRIMARY KEY.
+    Na entidade "Tecnologia" foi criado um ID como PRIMARY KEY.
 
-Na entidade "Utiliza" foram adicionadas duas FOREIGN KEY, fk_Empresa_parceira_ID e fk_Tecnologia_ID.
+    Na entidade "Utiliza" foram adicionadas duas FOREIGN KEY, fk_Empresa_parceira_ID e fk_Tecnologia_ID.
 
 5. Como essas entidades estão relacionadas?
 
-No modelo lógico as entidades estão relacionadas por uma entidade relacional chamada por "Utiliza".
+    No modelo lógico as entidades estão relacionadas por uma entidade relacional chamada por "Utiliza".
