@@ -1,3 +1,10 @@
+--PROJETO INDIVIDUAL 1 - MÓDULO 3 - Sistema RESILIDATA
+
+--Criado e editado por Robson Peçanha
+
+--Data: 21/03/2023
+
+
 CREATE TABLE empresa_parceira (
   id_empresa INT PRIMARY KEY,
   nome_empresa VARCHAR(50),
