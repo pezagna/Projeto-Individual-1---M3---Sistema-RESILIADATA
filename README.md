@@ -38,7 +38,7 @@ com nosso modelo:
 
     No modelo lógico as entidades estão relacionadas por uma entidade relacional chamada por "Utiliza".
     
-
+----------------------------------------------------------------------------------------------------------
 Linha de comando utlizado para criar a modelagem.
 
 CREATE TABLE empresa_parceira (
