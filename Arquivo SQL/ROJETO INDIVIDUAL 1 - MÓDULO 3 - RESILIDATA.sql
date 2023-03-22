@@ -26,15 +26,11 @@ VALUES (1, 'Resilia', 'Rua R, 123', 2112345678, 'resilia@email.com'),
 
 INSERT INTO tecnologia (id_tecnologia, nome_tecnologia, area)
 VALUES (1, 'Java', 'webdev'),
-       (2, 'Python', 'dados'),
-       (3, 'JavaScript', 'webdev'),
-       (4, 'SQL', 'dados'),
-       (5, 'Google Analytics', 'marketing');
+       (2, 'Python', 'dados');
 
 INSERT INTO tecnologia_empresa (id_tecnologia_empresa, id_empresa, id_tecnologia)
 VALUES (1, 1, 1),
-       (2, 1, 3),
-       (3, 1, 5);
+       (2, 1, 1);
 SELECT e.nome_empresa, t.nome_tecnologia, t.area
 FROM empresa_parceira e
 JOIN tecnologia_empresa te ON e.id_empresa = te.id_empresa
