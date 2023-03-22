@@ -24,7 +24,7 @@ com nosso modelo:
 
 1. Existem outras entidades além dessas?
 
-    Sim. No modelo lógico foi criada uma entidade relacional com cardinalidade N para N, chamada por "Utiliza"
+    Sim. Na relação "Utiliza" no modelo lógico ela foi promovida para uma entidade relacional com cardinalidade N para N.
 
 3. Quais são os principais campos e tipos?
 
