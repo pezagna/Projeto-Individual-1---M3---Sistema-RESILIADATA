@@ -4,6 +4,7 @@ Criado e editado por Robson Peçanha
 
 Data: 21/03/2023
 
+-------------------------------------------------------------------------
 
 Você foi contratado para desenvolver um banco de dados que irá armazenar
 dados importantes que será utilizado pelo sistema RESILIADATA.
