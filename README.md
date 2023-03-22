@@ -6,6 +6,9 @@ Data: 21/03/2023
 
 -------------------------------------------------------------------------
 
+Contexto:
+
+
 Você foi contratado para desenvolver um banco de dados que irá armazenar
 dados importantes que será utilizado pelo sistema RESILIADATA.
 
