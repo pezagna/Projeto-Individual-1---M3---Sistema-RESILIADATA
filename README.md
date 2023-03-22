@@ -24,7 +24,7 @@ com nosso modelo:
 
 1. Existem outras entidades além dessas?
 
-    Nao.
+    Sim. Foi criada uma entidade relacional com cardinalidade N para N, chamada por "Utiliza"
 
 3. Quais são os principais campos e tipos?
 
