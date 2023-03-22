@@ -64,8 +64,8 @@ CREATE TABLE tecnologia_empresa (
 );
 
 INSERT INTO empresa_parceira (id_empresa, nome_empresa, endereco, telefone, email)
-VALUES (1, 'Resilia', 'Rua R, 123', '(21) 1234-5678', 'resilia@email.com'),
-       (1, 'Senac', 'Rua S, 123', '(21) 8765-4321', 'senac@email.com');
+VALUES (1, 'Resilia', 'Rua R, 123', 2112345678, 'resilia@email.com'),
+       (2, 'Senac', 'Rua S, 123', 2187654321, 'senac@email.com');
 
 INSERT INTO tecnologia (id_tecnologia, nome_tecnologia, area)
 VALUES (1, 'Java', 'webdev'),
@@ -94,4 +94,3 @@ FROM empresa_parceira e
 JOIN tecnologia_empresa te ON e.id_empresa = te.id_empresa
 JOIN tecnologia t ON te.id_tecnologia = t.id_tecnologia
 WHERE t.area = 'webdev';
-
